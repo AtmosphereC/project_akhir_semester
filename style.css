@@ -1,0 +1,94 @@
+:root {
+    --container-width: 90%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* nav {
+    height: 154px;
+    background-color: salmon;
+    width: var(--container-width);
+    margin: 0px auto;
+} */
+
+nav div.top {
+    height: 62px;
+    background-color: yellow    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav img.logo {
+    height: inherit;
+} */
+
+nav div.top a.top-visit {
+    width: 150px;
+    height: inherit;
+    background-color: black;
+    text-align: center;
+    line-height: 62px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+
+nav div.bottom {
+    height: 92px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div.bottom div.nav-bottom {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+nav div.bottom div.nav-bottom a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+section.hero {
+    height: calc(100vh - 154px);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.hero h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: black;
+}
+
+section.faculty {
+    height: 302px;
+    background-color: salmon;
+    display: flex;
+}
+
+section.faculty div.item-faculty {
+    width: 25%;
+    background-color: red;
+    border: 1px solid black;
+}
+
